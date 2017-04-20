@@ -17,7 +17,7 @@ export default class reactNativeApp extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          My React Native Demo!
+          Shenck's React Native Demo!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.android.js
