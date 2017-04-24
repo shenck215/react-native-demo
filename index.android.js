@@ -39,7 +39,7 @@ class reactNativeApp extends Component {
           {this.state.text.split(' ').map((word) => word && '🍕').join(' ')}
         </Text>
 
-        <Image style={styles.img} source={require('./images/index/huaji.android.png')} />
+        <Image style={styles.img} source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}} />
       </View>
     );
   }
